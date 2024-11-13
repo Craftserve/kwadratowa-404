@@ -59,10 +59,22 @@
               Otrzymuj najnowsze informacje odnośnie projektów i nie tylko
               dzięki naszemu newsletterowi!
             </p>
-            <form class="form" aria-labelledby="newsletter">
+            <form
+              action="https://listmonk.craftserve.com/subscription/form"
+              method="post"
+              class="form"
+              novalidate
+              aria-labelledby="newsletter"
+            >
+              <input
+                type="hidden"
+                name="l"
+                value="aa3a4734-aa82-4d63-ab98-06f16342bbf5"
+              />
               <input
                 placeholder="Wpisz swój adres email"
                 required
+                name="email"
                 type="email"
                 class="form__input"
               />
